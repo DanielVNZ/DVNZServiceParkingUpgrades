@@ -1,0 +1,59 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Service Parking Upgrades" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Adds more service parking to vanilla service assets." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+		
+## Service Parking Upgrades
+
+### Supported Buildings
+* LandFill01
+* Hospital01
+* PoliceStation01
+* BusDepot01
+* TaxiDepot01
+
+Simily click on the building and youll see the upgrade there. If you already have a building placed, youll likley need to replace the building once the pack is installed.
+
+## NOTE: Please read the upgrade description, some upgrades have road's that go with them and are required to be placed in a specific location. 
+
+Upgrade costs are NOT final and I would appreciate your feedback on this! 
+Only recommend using on wealthy large cities else will look out of place and wont be cost effective. 
+
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/ThumbnailOne.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/All.png" />
+	<Screenshot Value="Properties/BusStation.png" />
+	<Screenshot Value="Properties/Hospital.png" />
+	<Screenshot Value="Properties/Landfill.png" />
+	<Screenshot Value="Properties/PoliceStation.png" />
+	<Screenshot Value="Properties/TaxiDepot.png" />
+	
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/dvnz-service-parking-upgrades.1721813/" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.2.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog>
+## 1.0.0
+* Initial release
+    </ChangeLog>
+	<!--ChangeLog>
+	</ChangeLog-->
+	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
+	<ExternalLink Type="github" Url="https://github.com/DanielVNZ/DansParkingPack" />
+	<ExternalLink Type="kofi" Url="https://ko-fi.com/danielvnz" />
+</Publish>
